@@ -27,7 +27,7 @@ const ContactLink = styled.a`
 export const Contacts = () => {
   const iconSize = window.innerWidth > 2000 ? "3x" : "lg";
   return (
-    <Nav vertical className="contacts">
+    <Nav vertical className="contacts m-auto">
       <NavItem>
         <ContactLink href="tel:+79992278906" className="p-2 shake-little">
           <FontAwesomeIcon icon={faPhoneSquare} size={iconSize} />

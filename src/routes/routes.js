@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { Spinner } from "reactstrap";
 import { Route, Switch } from "react-router";
 import ErrorBoundary from "./ErrorBoundary";
 
@@ -12,7 +13,15 @@ const PageNotFound = React.lazy(() =>
 
 export const Routes = () => (
   <ErrorBoundary>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense
+      fallback={
+        <div className="m-auto">
+          <Spinner type="grow" color="success" />
+          <Spinner type="grow" color="warning" />
+          <Spinner type="grow" color="danger" />
+        </div>
+      }
+    >
       <Switch>
         <Route exact path="/">
           <Home />

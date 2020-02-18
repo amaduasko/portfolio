@@ -1,0 +1,49 @@
+@keyframes slide {
+  0% {
+    left: -50%;
+  }
+  20% {
+    left: 10%;
+  }
+  40% {
+    left: -10%;
+  }
+  60% {
+    left: 5%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes slide-hide {
+  from {
+    width: 20%;
+    right: 0%;
+  }
+  to {
+    width: 0;
+    right: -100%;
+  }
+}
+@keyframes slide-show {
+  0% {
+    right: -50%;
+  }
+  20% {
+    right: 10%;
+  }
+  40% {
+    right: -10%;
+  }
+  60% {
+    right: 5%;
+  }
+  100% {
+    right: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .app {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,49 @@
+.about-head {
+  width: fit-content;
+  font-size: 4em;
+  color: #00b8d4;
+}
+.container {
+  overflow: hidden;
+}
+.container > p {
+  width: 70%;
+  font-size: 2em;
+  font-style: italic;
+  color: #e0e0e0;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1000ms;
+}
+@media (min-width: 1440px) {
+  .container {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1199.98px) {
+  .container > p {
+    width: 70%;
+    font-size: 1.9em;
+  }
+}
+@media (max-width: 991.98px) {
+  .container > p {
+    width: 50%;
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 768px) {
+  .container > p {
+    width: 62%;
+    font-size: 1.4em;
+  }
+}
+@media (max-width: 575.98px) {
+  .about-head {
+    font-size: 3em;
+  }
+  .container > p {
+    width: 100%;
+    font-size: 1.2em;
+  }
+}

@@ -15,7 +15,17 @@ export const Routes = () => (
   <ErrorBoundary>
     <Suspense
       fallback={
-        <div className="m-auto">
+        <div
+          style={{
+            right: "0",
+            top: "0",
+            left: "0",
+            bottom: "0",
+            width: "fit-content",
+            height: "fit-content"
+          }}
+          className="m-auto position-absolute"
+        >
           <Spinner type="grow" color="success" />
           <Spinner type="grow" color="warning" />
           <Spinner type="grow" color="danger" />

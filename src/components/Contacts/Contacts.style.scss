@@ -2,3 +2,13 @@
   -webkit-animation: animation 1000ms linear infinite both;
   animation: animation 1000ms linear infinite both;
 }
+@media (max-width: 575.98px) {
+  .contacts {
+    width: 85%;
+    bottom: unset;
+    margin: 0 !important;
+    left: unset;
+    height: 52px;
+    align-items: center;
+  }
+}

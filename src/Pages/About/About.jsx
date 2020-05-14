@@ -1,10 +1,10 @@
-import React from "react";
-import { Container } from "reactstrap";
-import "./About.scss";
+import React from 'react'
+import { Container } from 'reactstrap'
+import './About.scss'
 
 const About = () => (
-  <Container className="pt-5">
-    <h1 className="about-head  shake-slow">About me</h1>
+  <Container className='pt-5'>
+    <h1 className='about-head  shake-slow'>About me</h1>
     <p>
       I am a web dev lover from Mali(West Africa), actually living in Russia. I
       started learning code with Python (basic) and then HTML, CSS and so on..
@@ -13,6 +13,6 @@ const About = () => (
       online gaming, actually Paladins is my favorite one.
     </p>
   </Container>
-);
+)
 
-export default About;
+export default About

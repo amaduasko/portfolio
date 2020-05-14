@@ -26,8 +26,13 @@
 }
 @media (max-width: 575.98px) {
   .nav {
-    flex-direction: column !important;
-    margin: auto;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    width: 100%;
+    justify-content: space-around;
   }
 }
 
